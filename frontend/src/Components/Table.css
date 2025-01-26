@@ -1,0 +1,120 @@
+.tablestructure {
+    width: 1000px;
+    border: 1px solid black;
+    table-layout: fixed;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-top:40px;
+}
+.datainput{
+    margin-top:80px;
+   display: flex;
+   flex-direction: column;
+}
+
+
+.num {
+    width: 5px;
+}
+
+.id {
+    width: 10px;
+}
+
+.marks {
+    width: 10px;
+}
+
+.result {
+    width: 10px;
+}
+
+.remarksdata{
+    margin-left: 20px;
+}
+#datam{
+    width: 150px;
+    }
+#datam:hover{
+border: 1px solid goldenrod;
+width: 250px;
+}
+#dataremarks{
+    width: 150px;
+}
+#dataremarks:hover{
+    border: 1px solid goldenrod;
+    width: 250px;
+    }
+
+.btnupdate{
+    margin-left:20px;
+}
+#updatebtn{
+    width: 100px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.semestermain{
+    margin-left:380px;
+    margin-top: 50px;
+}
+#semmain{
+    width: 300px;
+    height:30px;
+    border: none;
+    border: 10px;
+    color: green;
+}
+.updatesem{
+    margin-left: 480px;
+}
+#td1{
+padding-left:135px;
+}
+#td2{
+    padding-left:145px;
+}
+#td3{
+    padding-left:145px;
+}
+#retrievebtn{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.marksdata{
+    margin-left:20px;
+}
+#delbtn{
+    width: 100px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#datamarks{
+    width:60px;
+}
+#dataname{
+    margin-left: 60px;
+}
+#datasubject{
+    margin-left: 14px;
+}
+#dataid{
+    margin-left: 121px;
+}
+#datam{
+    margin-left: 91px;
+    width: 164px;
+}
+#dataremarks{
+    margin-left: 90px;
+    width: 164px;
+}

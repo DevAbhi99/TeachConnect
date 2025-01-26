@@ -1,0 +1,155 @@
+.nav_feedback{
+    background-color: #17d059;
+    padding-left: 30px;
+}
+#nav_back{
+    color: yellow;
+}
+.feedback_btns{
+margin-top: 20px;
+margin-left: 150px;
+}
+
+#feedbackbtns{
+    margin-left: 20px;
+}
+
+#feed1,#feed2,#feed3,#feed4,#feed5,#feed6,#feed7,#feed8,#feed9,#feed10{
+    height:100px;
+    width:100px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+}
+#feed1:hover,#feed2:hover,#feed3:hover,#feed4:hover,#feed5:hover,#feed6:hover,#feed7:hover,#feed8:hover,#feed9:hover,#feed10:hover{
+    height:100px;
+    width:100px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    background-color:blue;
+}
+.feedbackform{
+    margin-left:400px;
+    margin-top:100px;
+    border: 0.5px solid #17d059;
+    width:600px;
+    height:350px;
+    padding-left: 100px;
+    padding-top: 60px;
+    background-color: white;
+    border-radius: 5px;
+}
+#feedbackarea{
+    display: flex;
+    flex-direction: column;
+}
+#studname{
+    width:300px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 0.2px solid black;
+}
+#studrollno{
+    width:300px;
+    margin-left: 32px;
+    border-radius: 5px;
+    border: 0.2px solid black;
+}
+#studname:hover{
+    width:300px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+}
+#studrollno:hover{
+    width:300px;
+    margin-left: 32px;
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+}
+#rolltxt{
+    margin-top: 20px;
+}
+#feedbackarea{
+    margin-top: 20px;
+}
+#commentarea{
+    width:500px;
+    height:100px;
+}
+#commentarea:hover{
+    width:500px;
+    height:100px;
+    border: 1px solid goldenrod;
+}
+.feedbackformbtns{
+    margin-top:20px;
+}
+#submitbtn{
+    width:100px;
+    height:30px;
+    background-color: #17d059;
+    color:white;
+    font-weight: 500px;
+    font-family: sans-serif;
+    border:none;
+}
+#submitbtn:hover{
+    width:100px;
+    height:30px;
+    background-color: #17d059;
+    color:white;
+    font-weight: 500px;
+    font-family: sans-serif;
+    border:2px solid gold;
+}
+#resetbtn{
+    width:100px;
+    height:30px;
+    background-color:rgb(110, 188, 214);
+    color:white;
+    font-weight: 500px;
+    font-family: sans-serif;
+    border:none;
+}
+#resetbtn:hover{
+    width:100px;
+    height:30px;
+    background-color:rgb(110, 188, 214);
+    color:white;
+    font-weight: 500px;
+    font-family: sans-serif;
+    border:2px solid gold;
+}
+#resbtn{
+    margin-left: 310px;
+}
+#rateholder{
+background-color:rgb(233, 229, 229);
+color:rgb(233, 229, 229);
+border:none;
+}
+.feedback_heading{
+    font-size: 30px;
+    font-family: 500;
+    font-family: sans-serif;
+    color:black;
+    margin-top:80px;
+    margin-left:180px;
+}
+#yournametxt{
+    margin-bottom: 20px;
+}
+#yourname{
+    width:300px;
+    border-radius: 5px;
+    border: 0.2px solid black;
+    margin-left: 45px;
+}
+#yourname:hover{
+    width:300px;
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+    margin-left: 45px;
+}
+
+

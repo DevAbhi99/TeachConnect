@@ -1,0 +1,94 @@
+.nav_mainone{
+    background-color: #17d059;
+    height:32px;
+    padding-top:10px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.mainone_sub{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    width:800px
+}
+#btn{
+    background-color:#17d059 ;
+    border:none;
+    color:white;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+#subone,#subtwo,#subthree,#subfour,#subfive{
+    margin-left:40px;
+}
+#btnfee{
+    background-color: blue;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color:white;
+    width:150px;
+    border:none;
+    border-radius: 5px;
+    height:25px;
+    margin-bottom:10px;
+}
+ #fbbtn{
+border:none;
+background-color: #17d059;
+width:30px;
+     height:30px;
+     margin-bottom:15px;
+     color:white;
+  
+ }
+ #li,#in,#yo,#xi{
+    margin-left:10px;
+ }
+ 
+ .mainone_subone{
+margin-left:300px;
+ }
+
+ #kiitlogo{
+    height:100px;
+    width:400px;
+ }
+ .nav_maintwo{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+ }
+ .settings{
+    margin-left: 850px;
+    margin-top: 40px;
+ }
+ #dropdown-basic{
+    border: none;
+    font-size: larger;
+    background-color: white;
+}
+.dropdown-item {
+  display: block;
+    width: 100%;
+    padding: 10px;
+    color: black; /* Change this to your desired text color */
+    text-decoration: none;
+    background-color: white; /* Change this to your desired background color */
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #dfe1e3; /* Change this to your desired hover color */
+    color: #000; /* Change this to your desired hover text color */
+    text-decoration: none;
+}
+#close_btn{
+background-color: white;
+border:0.5px solid black;
+font-size: 20px;
+
+}

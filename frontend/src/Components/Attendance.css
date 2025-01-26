@@ -1,0 +1,75 @@
+.nav_feedback{
+    background-color: #17d059;
+    padding-left: 30px;
+}
+#nav_back{
+    color: yellow;
+}
+.feedback_heading{
+    font-size: 30px;
+    font-family: 500;
+    font-family: sans-serif;
+    color:black;
+    margin-top:80px;
+    margin-left:180px;
+}
+.attendancetable{
+    margin-left:400px;
+    margin-top:90px;
+    background-color: white;
+    width:600px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+
+th{
+    width: 40%;
+    color: #17d059;
+}
+#p_column{
+    width: 30%;
+    padding-left: 30px;
+}
+
+#id_column{
+    width: 30%;
+    padding-left: 10px;
+}
+#rbtn{
+    margin-left: 50px;   
+}
+#pbtn{
+    border:none;
+    background-color: green;
+    color: white;
+    font-weight:600;
+    font-family: sans-serif;
+    margin-left: 70px;
+}
+#abtn{
+    border:none;
+    background-color: red;
+    color: white;
+    font-weight:600;
+    font-family: sans-serif;
+    margin-left:30px;
+}
+#upbtn{
+    border:none;
+    background-color: green;
+    color: white;
+    font-weight:600;
+    font-family: sans-serif;
+}
+#uabtn{
+    border:none;
+    background-color: red;
+    color: white;
+    font-weight:600;
+    font-family: sans-serif;
+}
+.submit_btn{
+    margin-left:50px;
+    margin-top: 20px;
+}
