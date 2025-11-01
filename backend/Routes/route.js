@@ -10,13 +10,22 @@ router.post('/signup', (req, res) => {
 
     const {username, password}=req.body;
     
+    // Validate input
+    if (!username || !password) {
+        return res.status(400).json({ message: 'Username and password are required' });
+    }
+    
     bcrypt.genSalt(10, function(err, salt) {
 
         if(err){
-            console.log(`Could not generate salt due to error ${err}`)
+            console.log(`Could not generate salt due to error ${err}`);
+            return res.status(500).json({ message: 'Error generating password hash' });
         }
         bcrypt.hash(password, salt, function(err, hash) {
-            // Store hash in your password DB.
+            if(err){
+                console.log(`Could not hash password due to error ${err}`);
+                return res.status(500).json({ message: 'Error creating user' });
+            }
 
             const sql='insert into signup(username, password) values(?,?);';
 
@@ -43,7 +52,7 @@ router.post('/signup', (req, res) => {
 
     const sql='select * from signup where username=?;';
 
-    db.query(sql, username, (err, results)=>{
+    db.query(sql, [username], (err, results)=>{
 
         if(err){
             res.status(500).json({message:'error'});
@@ -51,7 +60,7 @@ router.post('/signup', (req, res) => {
         }
     
         if (results.length===0){
-            res.status.json/({mesage:'invalid email or password'});
+            return res.status(401).json({message:'Invalid email or password'});
         }
     
         const hashedPassword=results[0].password;
@@ -60,7 +69,7 @@ router.post('/signup', (req, res) => {
             // result == true
             if(err){
                 console.log(`error occurred while validating due to error ${err}`);
-               res.status(200).json({message:'Error'});
+               res.status(500).json({message:'Error validating password'});
                 return;
             }
         
@@ -68,7 +77,7 @@ router.post('/signup', (req, res) => {
                 res.status(200).json({message:'Successfully Logged in'});
             }
             else{
-                res.status(400).json({messsage:'Could not login'});
+                res.status(401).json({message:'Invalid credentials'});
             }
         });
 
@@ -192,8 +201,8 @@ router.post('/api/deleteData', (req, res) => {
   
 const {username}=req.body;
 
-  const sql = `delete from results where username="${username}";`;
-   db.query(sql, (err, result) => {
+  const sql = 'DELETE FROM results WHERE username = ?;';
+   db.query(sql, [username], (err, result) => {
      if (err) {
        return res.status(500).send(err);
      }
@@ -210,7 +219,7 @@ const sql='SELECT username, marks, result FROM results;';
 db.query(sql, (err,results)=>{
 if(err){
   console.log(`Error ${err} encountered`);
-  res.status(500).send(err);
+  return res.status(500).send(err);
 }
 res.status(200).json(results);
 

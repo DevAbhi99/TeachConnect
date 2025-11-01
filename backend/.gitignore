@@ -1,20 +1,30 @@
-# Ignore Python cache and compiled files
-__pycache__/
-*.pyc
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
 
-# Ignore environment and virtualenv folders
+# Environment variables
 .env
-.venv/
-env/
-venv/
+.env.local
+.env.production
 
-# Ignore IDE/project files
+# IDE/Editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
-# Ignore OS-specific files
+# OS-specific files
 .DS_Store
 Thumbs.db
 
-# (Optional) If using FastAPI/SQLModel logs or temp data
+# Logs
+logs/
 *.log
+
+# Build files
+dist/
+build/
