@@ -1,0 +1,8 @@
+.grade_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:1px solid rgb(144, 227, 18);
+    background-color: white;
+    margin-top:20px;
+}

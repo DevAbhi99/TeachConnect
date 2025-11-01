@@ -1,0 +1,38 @@
+.linux{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border: 1px solid green;
+    width: 500px;
+    height:70px;
+    padding-top: 20px;
+    margin-left:40px ;
+    padding-left: 40px;
+    background-color: white;
+    color:green;
+}
+.subbtn{
+    height:70px;
+    width: 500px;
+    border:none;
+    background-color:rgb(233, 229, 229); 
+}
+
+.professorname{
+    display: flex;
+    flex-direction: row;
+}
+.subjectname{
+    display: flex;
+    flex-direction: row;
+}
+.subj_name{
+    margin-top: 10px;
+}
+.p_name{
+    margin-left: 10px;
+}
+.s_name{
+    margin-left: 10px;
+    margin-top: 10px;
+}

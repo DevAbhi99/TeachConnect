@@ -1,0 +1,35 @@
+.footer_main{
+    margin-top: 100px;
+    background-color: rgb(3, 48, 3);
+    height:140px;
+}
+#help{
+    color: white;
+    margin-left:720px;
+   
+} 
+.footer_btns{
+    margin-left:500px;
+}
+#footerbtn{
+    font-size: 16px;
+    color:white;
+    background-color:rgb(3, 48, 3);
+    border: 2px solid white;
+}
+#fb1{
+    margin-left: 30px;;
+}
+#fb2{
+    margin-left: 30px;;
+}
+.EAM{
+    margin-left: 620px;
+    margin-top: 20px;
+    color:yellow;
+}
+#eamdiv{
+    color: lightblue;
+    background-color:rgb(3, 48, 3) ;
+    border:none;
+}

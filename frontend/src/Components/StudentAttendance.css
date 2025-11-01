@@ -1,0 +1,12 @@
+.attendance_card{
+    border:1px solid rgb(144, 227, 18);
+    background-color: white;
+    margin-top:40px;
+    width:700px;
+    margin-left: 350px;
+    height:50px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

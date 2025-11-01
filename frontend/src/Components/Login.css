@@ -1,0 +1,62 @@
+.signup_main{
+    display: flex;
+    flex-direction: row;
+    margin-left:200px;
+    margin-top:70px;
+    height:400px;
+    width:1000px;
+    border:0.5px solid black;
+    background-color: white;
+    padding-left:100px;
+    padding-top:70px;
+    border-radius:10px;
+}
+.input_main{
+display: flex;
+flex-direction: column;
+margin-left:100px;
+margin-top:100px;
+}
+.input_fields{
+    display: flex;
+    flex-direction: column;
+}
+#uname{
+    margin-left:10px;
+}
+#user{
+    width:300px;
+}
+#user:hover{
+    width:300px;
+    border:1px solid goldenrod;
+}
+#pwd{
+    margin-left:12px;
+}
+#pw{
+    width:300px;
+}
+#pw:hover{
+    border:1px solid goldenrod;
+}
+.button_fields{
+    margin-top:70px;
+}
+#lgn_btn{
+    margin-left:200px;
+}
+#login{
+    width: 100px;
+    height:30px;
+    background-color: #17d059;
+    color: white;
+    border: none;
+
+}
+#credimg{
+    border:2px solid gold;
+}
+#pinput{
+    margin-top: 15px ;
+}
